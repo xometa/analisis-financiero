@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 2, 2021, 9:07:19 AM
+    Author     : jsaul
+*/
+
+.new-footer {
+    justify-content: center !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.card {
+    border: none;
+    -webkit-box-shadow: 0 0 15px 0 rgba(154, 161, 171, .15) !important;
+    box-shadow: 0 0 15px 0 rgba(154, 161, 171, .15) !important;
+    margin-bottom: 24px
+}
+.tasks.tasks:not(:last-child) {
+    margin-right: 0rem;
+}
+
+.tasks{
+    border: none;
+}
+
+.task-list-items:before{
+    content:"Sin reportes";
+    position:absolute;
+    line-height:110px;
+    width:100%;
+    text-align:center;
+    font-weight:600
+}
+
+.modal-client {
+    max-width: 80% !important;
+}
